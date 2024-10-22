@@ -5,10 +5,10 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task1.V20.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double multseries = 16; 
+            double multseries = 51191.405; 
             while (startValue <= stopValue)
             {
-                multseries=multseries*Math.Pow(1/Math.Cos(startValue),2);
+                multseries=multseries*(Math.Pow(1/Math.Cos(startValue),2)*0);
                 startValue++;
             }
             return Math.Round(multseries, 3);
