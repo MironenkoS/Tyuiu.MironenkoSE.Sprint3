@@ -26,7 +26,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task1.V20
 
             
             int startValue = 1;
-            int stopValue = 10;
+            int stopValue = 16;
 
 
 
