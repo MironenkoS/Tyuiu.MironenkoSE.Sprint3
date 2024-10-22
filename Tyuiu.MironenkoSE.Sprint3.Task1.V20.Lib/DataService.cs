@@ -5,7 +5,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task1.V20.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double multseries = 1; 
+            double multseries = 16; 
             while (startValue <= stopValue)
             {
                 multseries=multseries*Math.Pow(1/Math.Cos(startValue),2);
