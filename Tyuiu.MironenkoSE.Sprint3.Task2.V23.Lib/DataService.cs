@@ -12,7 +12,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task2.V23.Lib
                 startValue++;
 
             } while(startValue<=stopValue);
-            return Math.Round(sumSeries, 1);
+            return Math.Round(sumSeries, 3);
             
         }
     }

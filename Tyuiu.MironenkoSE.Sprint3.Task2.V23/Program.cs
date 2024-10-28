@@ -24,9 +24,9 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task2.V23
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double value = 5;
+            double value = 1.5;
             int startValue = 1;
-            int stopValue = 10;
+            int stopValue = 13;
             Console.WriteLine("Переменная x=" + value);
             Console.WriteLine("Старт Шага=" + startValue);
             Console.WriteLine("Конец Шага=" + stopValue);
