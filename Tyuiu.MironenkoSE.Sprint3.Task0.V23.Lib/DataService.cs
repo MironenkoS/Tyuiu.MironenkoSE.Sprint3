@@ -13,7 +13,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task0.V23.Lib
             {
                 sumSeries= sumSeries+ Math.Pow(1 / (Math.Sin(i) + 2 * Math.Pow(value, i)), i);
             }
-            return Math.Round(sumSeries, 1);
+            return Math.Round(sumSeries, 3);
         }
     }
 }
