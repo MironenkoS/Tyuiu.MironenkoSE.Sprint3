@@ -24,8 +24,8 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task6.V6
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int startValue = 16;
-            int stopValue = 24;
+            int startValue = 3;
+            int stopValue = 4;
 
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
