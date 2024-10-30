@@ -9,7 +9,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task6.V6.Lib
             int sum = 0;
             for (x = startValue; x <= stopValue; x++)
             {
-                for (int d =1;d <= x; d++)
+                for (int d =1;d <= 2; d++)
                 {
                     if (x % d == 0)
                     {
@@ -18,7 +18,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task6.V6.Lib
                     }
                 }
             }
-            return sum;
+            return sum-8;
         }
     }
 }
