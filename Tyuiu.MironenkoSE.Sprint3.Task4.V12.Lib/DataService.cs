@@ -5,7 +5,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task4.V12.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 1;
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
@@ -14,7 +14,7 @@ namespace Tyuiu.MironenkoSE.Sprint3.Task4.V12.Lib
                 }
                 else
                 {
-                    res = res + (x / (x + Math.Sin(x)) + 2.5);
+                    res = res * (x / (x + Math.Sin(x)) + 2.5);
                 }
             }
             return Math.Round(res, 3);
